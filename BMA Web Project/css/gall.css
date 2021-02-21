@@ -1,0 +1,272 @@
+
+body{
+    background: black;
+   
+}
+.wrapper{
+     width: 100%;
+    height: 1200px;
+    background-color: darkseagreen;
+    margin:auto;
+}
+.header{
+    width: 100%;
+    height: 200px;
+    background-color: #999999;
+   
+}
+.header .logo{
+    width: 20%;
+    height: 200px;
+    background-color: yellowgreen;
+    float:left;
+}
+.header .banner{
+    width: 80%;
+    height: 200px;
+    background-color: yellowgreen;
+    float:left;
+}
+.menu{
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+/*    margin-top:3px;  */
+    float:left;
+}
+.menu ul{
+    margin:0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.menu ul li{
+    float:left;
+    width:20%;
+    
+}
+.menu ul li a{
+/*    border:1px solid; base class*/
+background-color: burlywood;
+/*color: white;*/
+   display: block;
+text-decoration: none;
+text-align: center;
+padding: 14px 5px;
+border-radius: 0px 0px 50px 50px;
+transition: background-color 2s;
+}
+.menu ul li a:hover{
+    /*    border:1px solid; psudo class*/
+    background-color: black;
+    color:yellow;
+    border-radius:  50px 50px 0px 0px;
+}
+.content{
+    width: 100%;
+    height: 550px;
+    background-color: crimson;
+/*     margin-top:3px;  */
+     float:left;
+}
+.content .leftSidebar{
+    width: 25%;
+    height: 550px;
+    background-color: bisque;
+/*     margin-top:3px;  */
+     float:left;
+}
+.content .mainContent{
+    width: 50%;
+    height: 550px;
+    background-color: blueviolet;
+/*     margin-top:3px;  */
+     float:left;
+}
+.content .rightSidebar{
+    width: 25%;
+    height: 550px;
+    background-color: bisque;
+/*     margin-top:3px;  */
+     float:left;
+}
+.bigFooter{
+    width: 100%;
+    height: 300px;
+    background-color: khaki;
+   margin-top:3px; 
+ float:left;
+}
+.bigFooter .bigFooterOne{
+    width: 30%;
+    height: 300px;
+    background-color: darkolivegreen;
+/*     margin-top:3px;  */
+ float:left;
+}
+.bigFooter .bigFooterTwo{
+    width: 40%;
+    height: 300px;
+    background-color: darkmagenta;
+/*     margin-top:3px;  */
+ float:left;
+}
+.bigFooter .bigFooterThree{
+    width: 30%;
+    height: 300px;
+    background-color: coral;
+/*     margin-top:3px;  */
+ float:left;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: violet;
+     float:left;
+/*     margin-top:3px;  */
+}
+.imgResponsive{
+    height:100%;
+    weight:100%;
+}
+.mainBox{
+    height: 1050px;
+    width: 100%;
+    background-color: #ccccff; 
+    margin-top: 3px;
+}
+.mainBox .BoxOne{
+    height: 300px;
+    width: 30%;
+    background-color: red;
+    margin-left: 30px;
+    margin-top: 30px;
+    float: left;
+    transform: rotate(0deg) scale(1);
+    transition: all 2s;
+    background-image: url(../images/suti.jpg);
+    background-size: cover;
+}
+.mainBox .BoxOne:hover{
+     transform: rotate(200deg) scale(1.5);
+}
+.mainBox .BoxTwo{
+    height: 300px;
+    width: 30%;
+    background-color: blue;
+    margin-left: 30px;
+    margin-top: 30px;
+    float: left;
+    transform: rotate(0deg) scale(1);
+    transition: all 2s;
+    background-image: url(../images/me.jpg);
+    background-size: cover;
+}
+.mainBox .BoxTwo:hover{
+     transform: rotate(300deg) scale(1.5);
+}
+.mainBox .BoxThree{
+    height: 300px;
+    width: 30%;
+    background-color: green;
+    margin-left: 30px;
+    margin-top: 30px;
+    float: left;
+	transform: rotate(0deg) scale(1);
+    transition: all 2s;
+	background-image: url(../images/nat.jpg);
+    background-size: cover;
+}
+.mainBox .BoxThree:hover{
+     transform: rotate(400deg) scale(1.5);
+}
+.mainBox .BoxFour{
+    height: 300px;
+    width: 30%;
+    background-color: yellow;
+    margin-left: 30px;
+    margin-top: 30px;
+    float: left;
+	transform: scale(1);
+    transition: all 2s;
+	background-image: url(../images/lg.jpg);
+    background-size: 300px 300px;
+}
+.mainBox .BoxFour:hover{
+     transform: scale(1.5);
+}
+.mainBox .BoxFive{
+    height: 300px;
+    width: 30%;
+    background-color: skyblue;
+    margin-left: 30px;
+    margin-top: 30px;
+    float: left;
+	transform: scale(1);
+    transition: all 2s;
+	background-image: url(../images/cute.jpg);
+    background-size: 300px 300px;
+}
+.mainBox .BoxFive:hover{
+     transform: scale(1.5);
+}
+.mainBox .BoxSix{
+    height: 300px;
+    width: 30%;
+    background-color: yellowgreen;
+    margin-left: 30px;
+    margin-top: 30px;
+    float: left;
+	transform: scale(1);
+    transition: all 2s;
+	background-image: url(../images/my.jpg);
+    background-size: cover;
+}
+.mainBox .BoxSix:hover{
+     transform: scale(1.5);
+}
+.mainBox .BoxSeven{
+    height: 300px;
+    width: 30%;
+    background-color: blueviolet;
+    margin-left: 30px;
+    margin-top: 30px;
+    float: left;
+	transform: rotate(0deg) skewY(0deg);
+    transition: all 2s;
+	background-image: url(../images/guitar.png);
+    background-size: cover;
+}
+.mainBox .BoxSeven:hover{
+     transform: rotate(400deg) skewY(-30deg);
+}
+.mainBox .BoxEight{
+    height: 300px;
+    width: 30%;
+    background-color: orange;
+    margin-left: 30px;
+    margin-top: 30px;
+    float: left;
+	transform: rotate(0deg) skewY(0deg);
+    transition: all 2s;
+	background-image: url(http://www.seaservices.com/images/funeral-services-offered.jpg);
+    background-size: cover;
+}
+.mainBox .BoxEight:hover{
+     transform: rotate(400deg) skewY(-30deg);
+}
+.mainBox .BoxNine{
+    height: 300px;
+    width: 30%;
+    background-color: white;
+    margin-left: 30px;
+    margin-top: 30px;
+    float: left;
+transform: rotate(0deg) skewY(0deg) scale(1);
+    transition: all 2s;
+	background-image: url(../images/gls.png);
+    background-size: cover;
+}
+.mainBox .BoxNine:hover{
+     transform: rotate(400deg) skewY(-30deg) scale(1.5);
+}
+

@@ -1,0 +1,20 @@
+
+[class*='col-'] {
+    border: 1px solid gray;
+}
+
+.header-height { height: 200px; }
+.menu-height { height: 50px; }
+.content-height { height: 750px; }
+.big-footer-height { height: 250px; }
+.footer-height { height: 40px; }
+
+@media screen and (max-width: 767px) {
+    .right-side-area{ display: none; }
+}
+
+@media screen and (max-width: 490px) {
+    [class*='col-'] {
+        width: 100%;
+    }
+}

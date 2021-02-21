@@ -1,0 +1,134 @@
+
+body{
+    background: black;
+   
+}
+.wrapper{
+     width: 100%;
+    height: 1200px;
+    background-color: darkseagreen;
+    margin:auto;
+}
+.header{
+    width: 100%;
+    height: 200px;
+    background-color: #999999;
+   
+}
+.header .logo{
+    width: 20%;
+    height: 200px;
+    background-color: yellowgreen;
+    float:left;
+}
+.header .banner{
+    width: 80%;
+    height: 200px;
+    background-color:yellowgreen;
+    float:left;
+}
+.menu{
+    width: 100%;
+    height: 50px;
+    background-color: cornflowerblue;
+/*    margin-top:3px;  */
+    float:left;
+}
+.menu ul{
+    margin:0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.menu ul li{
+    float:left;
+    width:20%;
+    
+}
+.menu ul li a{
+/*    border:1px solid; base class*/
+background-color: burlywood;
+/*color: white;*/
+   display: block;
+text-decoration: none;
+text-align: center;
+padding: 14px 5px;
+border-radius: 0px 0px 50px 50px;
+transition: background-color 2s;
+}
+.menu ul li a:hover{
+    /*    border:1px solid; psudo class*/
+    background-color: seagreen;
+    color:yellow;
+    border-radius:  50px 50px 0px 0px;
+}
+.content{
+    width: 100%;
+    height: 550px;
+    background-color: crimson;
+/*     margin-top:3px;  */
+     float:left;
+}
+.content .leftSidebar{
+    width: 30%;
+    height: 550px;
+    background-color: aqua;
+/*     margin-top:3px;  */
+     float:left;
+	 text-align:center;
+}
+.content .mainContent{
+    width: 50%;
+    height: 550px;
+    background-color: yellowgreen;
+    color: white;
+/*     margin-top:3px;  */
+     float:left;
+	 text-align:center;
+}
+.content .rightSidebar{
+    width: 20%;
+    height: 550px;
+    background-color: white;
+/*     margin-top:3px;  */
+     float:left;
+}
+.bigFooter{
+    width: 100%;
+    height: 300px;
+    background-color: khaki;
+   margin-top:3px; 
+ float:left;
+ text-align:center;
+}
+.bigFooter .bigFooterOne{
+    width: 40%;
+    height: 300px;
+    background-color: darkolivegreen;
+/*     margin-top:3px;  */
+ float:left;
+}
+.bigFooter .bigFooterTwo{
+    width: 60%;
+    height: 300px;
+    background-color: darkmagenta;
+/*     margin-top:3px;  */
+ float:left;
+}
+.bigFooter .bigFooterThree{
+    width: 30%;
+    height: 300px;
+    background-color: coral;
+/*     margin-top:3px;  */
+ float:left;
+}
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: darkseagreen;
+     float:left;
+/*     margin-top:3px;  */
+}
+.imgResponsive{
+    height:100%;
+    weight:100%;
+}
